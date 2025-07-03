@@ -5,12 +5,13 @@ spring:
   application:
     name: config-server
   profiles:
-    active: default
+    active: native
   cloud:
     config:
       server:
         native:
           search-locations: classpath:/config
+          fail-on-error: false
 
 eureka:
   client:

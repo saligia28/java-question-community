@@ -1,0 +1,22 @@
+# 默认配置文件
+spring:
+  application:
+    name: default-service
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+# 日志配置
+logging:
+  level:
+    com.example: DEBUG
+    org.springframework.cloud: DEBUG 
