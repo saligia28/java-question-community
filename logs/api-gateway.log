@@ -104,3 +104,4 @@
 2025-07-03T11:09:51.107+08:00  INFO 11126 --- [api-gateway] [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
 2025-07-03T11:09:51.107+08:00  INFO 11126 --- [api-gateway] [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
 2025-07-03T11:09:51.115+08:00  INFO 11126 --- [api-gateway] [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-03T11:14:20.934+08:00  INFO 11126 --- [api-gateway] [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
