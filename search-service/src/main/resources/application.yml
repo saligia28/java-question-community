@@ -6,6 +6,8 @@ spring:
     name: search-service
   profiles:
     active: default
+  config:
+    import: "optional:configserver:"
   datasource:
     url: jdbc:h2:mem:searchdb
     driver-class-name: org.h2.Driver

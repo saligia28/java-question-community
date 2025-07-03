@@ -52,4 +52,8 @@ fi
 echo "清理残留进程..."
 pkill -f "spring-boot:run" 2>/dev/null
 
+# 清空所有日志文件内容，但不删除文件
+echo "清空所有日志内容..."
+find logs/ -type f -name "*.log" -exec sh -c '> "$1"' _ {} \;
+
 echo "✅ 所有服务已停止！" 
